@@ -1,6 +1,7 @@
 /** @format */
 
 // import express from 'express';
+// import userController from '../controllers/user.controller';
 
 const {getUsers,getUser,createUser,deleteUser,updateUser}= require("../controllers/user.controller");
 const express = require("express");
